@@ -1,9 +1,16 @@
+import java.awt.Image;
 
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("hello");
-	}
+	//start of main method
+	public static void main(String []args){
+		
+		MinimizeApp m = new MinimizeApp();
+		m.start();
+	    
+		Server s = new Server();
+		s.startServer();
+
+	}//end of main
 
 }
